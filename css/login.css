@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+   --pink:#e84393;
+   --red:#c0392b;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --border:.2rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+   font-family: 'Rubik', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition:all .2s linear;
+}
+
+*::selection{
+   background-color: var(--pink);
+   color:var(--white);
+}
+html{
+	background-image: url(anhdoan/backgroud.jpg);
+	
+}
+.form-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   height: 400px;
+}
+
+.form-container form{
+   padding:2rem;
+   border-radius: .5rem;
+   border:var(--border);
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   width: 40rem; 
+   text-align: center;
+}
+
+.form-container form h3{
+   font-size: 2.5rem;
+   text-transform: uppercase;
+   color:var(--black);
+   margin-bottom: 1rem;
+}
+
+.form-container form .box{
+   width: 100vw;
+   padding:1.2rem 1.4rem;
+   font-size: 1.8rem;
+   color:var(--black);
+   /* border:var(--border); */
+   background-color: var(--light-bg);
+   margin:1rem 0;
+   border-radius: .5rem;
+}
+.form-container form p a{
+	color: blue;
+}
+.form-container form p a:hover{
+   text-decoration: underline;
+}
+
+.formnhap{
+	width: 500px;
+	height: 50px;
+   background-color: #333;
+   border-radius: 10px;
+}
+
+.sub-btn{
+	background-color: #c0392b;
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+}
+.sub-btn:hover{
+   background-color: orange;
+}
+.td-btn{
+	float: left;
+	padding-bottom: 15px;
+	padding-left: 35px;
+	font-size: 20px;
+}
+
+.qmk-btn{
+	padding-top: 10px;
+     font-size: 20px;
+	 color: blue;
+    padding-bottom: 10px;
+}
